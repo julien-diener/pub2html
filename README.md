@@ -4,3 +4,7 @@ Pub2html is a simple python library which can lookup HAL publication database an
 
 **Install**: `python setup.py install`
 
+**Usage example**:
+
+    import pub2html
+    print pub2html.pub2html(authors="Julien Diener")
