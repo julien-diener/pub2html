@@ -9,13 +9,13 @@ def read(fname):
 
 setup(
     name="pub2html",
-    version="0.1",
+    version="0.1a1",
     author="Julien Diener",
-    description=("Search publication DB and generate html content ", "using templates."),
+    description="Search publication DB and generate html content using jinja templates.",
     long_description=read('README.md'),
     license="BSD",
     keywords="publication html generator template",
-    # url = "http://packages.python.org/....",
+    url = "https://github.com/julien-diener/pub2html",
 
     package_dir = {'': 'src'}, # See packages below
     packages = find_packages("src", exclude="test"),

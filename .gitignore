@@ -2,3 +2,4 @@
 *~
 pub2html.egg-info
 *.pyc
+dist/
