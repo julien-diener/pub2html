@@ -8,12 +8,13 @@ __author__ = 'Julien Diener'
 class Publication(object):
     """ Represents one publication """
 
-    def __init__(self, authors, title, url=None, abstract=None, pdf=None):
+    def __init__(self, authors, title, url=None, abstract=None, pdf=None, thumbnail=None):
         self.authors = authors
         self.title = title
         self.url = url
         self.abstract = abstract
         self.pdf = pdf
+        self.thumbnail = thumbnail
 
 
 def pub2html(authors, template_text=None, query_class=None):
