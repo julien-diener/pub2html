@@ -6,7 +6,9 @@ default = """
 <div id="publications">
 
   {%- for pub in publications %}
-    <p> <a href="{{ pub.url }}"> {{ pub.title }}, {{ pub.authors }} </a> </p>
+    <p> <a href="{{ pub.url }}"> {{ pub.title }}</a> <br>
+    {{ pub.authors|join(", ") }}
+    </p>
   {%- endfor %}
 
 </div>  <!-- publications -->
